@@ -1,0 +1,19 @@
+version: '3.4'
+
+services:
+  quicksell:
+    image: ${DOCKER_REGISTRY-}quicksell
+    build:
+      context: .
+      dockerfile: QuickSell/Dockerfile
+ 
+  quicksell.db:
+    image : mcr.microsoft.com/mssql/server:2022-latest
+    container_name: QuickSell.Db
+    volumes:
+        - ./.containers/database:/var/opt/mssql/data
+    ports:
+        - "1433:1433"
+    environment:
+        ACCEPT_EULA : "Y"
+        SA_PASSWORD : "Safe_password_123!"

@@ -7,6 +7,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F2B46CE2-009
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickSell", "QuickSell\QuickSell.csproj", "{95D3C2E5-E310-403D-B2D1-4638EC52531F}"
 EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{269AC620-6023-4AC5-8CE9-747430DB71CF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,6 +19,10 @@ Global
 		{95D3C2E5-E310-403D-B2D1-4638EC52531F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{95D3C2E5-E310-403D-B2D1-4638EC52531F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{95D3C2E5-E310-403D-B2D1-4638EC52531F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{269AC620-6023-4AC5-8CE9-747430DB71CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{269AC620-6023-4AC5-8CE9-747430DB71CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{269AC620-6023-4AC5-8CE9-747430DB71CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{269AC620-6023-4AC5-8CE9-747430DB71CF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
