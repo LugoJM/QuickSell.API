@@ -18,6 +18,7 @@ var builder = WebApplication.CreateBuilder(args);
     builder.Services.AddValidatorsFromAssembly(assembly);
 
     builder.Services.AddCarter();
+
 }
 
 var app = builder.Build();
@@ -32,6 +33,6 @@ var app = builder.Build();
 
     app.MapCarter();
 
-    app.UseHttpsRedirection();
+    //app.UseHttpsRedirection();
     app.Run();
 }
